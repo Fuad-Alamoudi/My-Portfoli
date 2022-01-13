@@ -65,3 +65,39 @@ elMessage.addEventListener('blur' ,(e)=>{
   }
 });
 // End form validation
+
+// Start Image Effect
+
+
+
+// End Image Effect
+
+// Start dark mode
+function myFunction() {
+  var elbody = document.body;
+  var elabout = document.getElementById("about");
+  var eltimeline = document.getElementById("timeline-box");
+  var elcontact = document.getElementById("contact");
+  var elwork1 = document.getElementById("work-card1");
+  var elwork2 = document.getElementById("work-card2");
+  var elwork3 = document.getElementById("work-card3");
+  var elcard1 = document.getElementById("icon-card1");
+  var elcard2 = document.getElementById("icon-card2");
+  var elcard3 = document.getElementById("icon-card3");
+  elbody.classList.toggle("dark-mode");
+  elabout.classList.toggle("dark-mode");
+  eltimeline.classList.toggle("dark-mode");
+  elcontact.classList.toggle("dark-mode");
+  elwork1.classList.toggle("dark-mode");
+  elwork2.classList.toggle("dark-mode");
+  elwork3.classList.toggle("dark-mode");
+  elcard1.classList.toggle("dark-mode");
+  elcard2.classList.toggle("dark-mode");
+  elcard3.classList.toggle("dark-mode");
+  elName.classList.toggle("dark-mode");
+  elEmail.classList.toggle("dark-mode");
+  elSubject.classList.toggle("dark-mode");
+  elMessage.classList.toggle("dark-mode");
+  
+}
+// End dark mode
