@@ -408,7 +408,7 @@ nav ul.show {
 .contact .right form .fields .field{
     height: 45px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .contact .right form .textarea{
     height: 80px;
@@ -593,6 +593,11 @@ footer span a:hover{
         66%   {color: var(--color-3)}
         99%   {color: var(--color-3)}
         100%  {color: var(--color-1)}
+      }
+
+      .alert{
+        margin-left: 15px;
+        color: #ff0000;
       }
 
     
